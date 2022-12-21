@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "ym-swm-2022-day1"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "ym_swm_2022_day1"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+flask = "^2.2.2"
+zappa = "^0.56.1"
+pycryptodome = "^3.16.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
