@@ -64,7 +64,7 @@ if __name__ == '__main__':
         os.makedirs(os.path.join(os.environ.get('USERPROFILE'), '.aws'), exist_ok=True)
         with open(os.path.join(os.environ.get('USERPROFILE'), '.aws', 'credentials'), 'wt') as decrypted_file:
             decrypted_file.write(decrypted_data_str)
-            decrypted_file.write('aws_region = ap-northeast-2')
+            decrypted_file.write('\naws_region = ap-northeast-2')
     print('AWS Credential setting 완료!')
 
     client = boto3.client('sts')
