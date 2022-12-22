@@ -10,7 +10,8 @@ ZAPPA_DEFAULT_SETTING = {
         "profile_name": None,
         "project_name": "day1_placeholder",
         "runtime": "python3.9",
-        "s3_bucket": "day1_placeholder"
+        "s3_bucket": "day1_placeholder",
+        "aws_region": "ap-northeast-2"
     }
 }
 
